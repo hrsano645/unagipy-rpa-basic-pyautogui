@@ -1,6 +1,6 @@
 ### pyautoguiでお手軽業務RPAしてみた
 
-Unagi.py 勉強会16枚目 LT 
+Unagi.py 勉強会16枚目 LT  
 Hiroshi Sano
 
 ---
