@@ -1,7 +1,6 @@
-# Unagi.py 勉強会16枚目 LT 
+# pyautoguiでお手軽業務RPAしてみた
 
-pyautoguiでお手軽業務RPAしてみた
-
+Unagi.py 勉強会16枚目 LT 
 Hiroshi Sano
 
 ---
@@ -83,9 +82,54 @@ WEB scrapingだとそこまでカバーできない
 
 # pyautogui使ってみた
 
-こちらです -> 
+こちらです -> [Welcome to PyAutoGUI’s documentation! &mdash; PyAutoGUI 1.0.0 documentation](https://pyautogui.readthedocs.io/en/latest/)
 
 簡単に言うと GUIでの操作をオートメーションするためのライブラリ
+
 ---
 
-# pyautoguiの使い方
+# pyautoguiの使い方:インストール
+`pip install pyautogui`
+`pipenv install pyautogui`
+
+```python
+>>> import pyautogui
+>>> pyautogui.position() # マウスの座標が出せる
+>>> pyautogui.resolution() # ディスプレイの
+```
+
+---
+
+# 使う時の勘所
+
+- ディスプレイの座標が非常に重要
+- ウィンドウがかぶるとクリックできないなどがある
+    - win32gui(pywin32)でウィンドウの情報取得と座標の計算が必須
+    - 被らないような工夫（バックグラウンドとフォアグラウンドを正しく見る）
+    - ショートカットキーが使えると正確性高くなる
+    - 画像識別での座標検出は精度良くない（使いこなせてないからかも）
+
+---
+
+# 実際に使うと
+
+---
+
+# まとめ
+
+---
+
+自動化万歳！コード化万歳！
+他のライブラリと組み合わせれば強みでます。
+マシンにさせれることはさせましょう ;)
+
+---
+
+# そのほかのRPAツール
+
+色々あるからググってくださいw
+
+- UIPath
+- [GitHub - OakwoodAI/Automagica: 🤖 Open Source (Smart) Robotic Process Automation](https://github.com/OakwoodAI/Automagica) 
+- **
+
