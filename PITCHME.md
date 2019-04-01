@@ -46,7 +46,7 @@ WEB scrapingだとそこまでカバーできない
 
 ---
 
-## そこでRPAという救世主が！！
+### そこでRPAという救世主が！！
 
 ![救世主 by いらすとや](https://3.bp.blogspot.com/-AqxFLFqfBBc/XAY53gAwSKI/AAAAAAABQfs/3NHgSP5h4bImIvMO15rqeVWFLCGhfJ61gCLcBGAs/s800/god_bible_kyuuseisyu.png)
 
@@ -55,7 +55,13 @@ WEB scrapingだとそこまでカバーできない
 #### RPA(Robotics Process Automation）とは
 
 
-    ロボティック・プロセス・オートメーション（英: robotic process automation、RPA）とは、認知技術（ルールエンジン・機械学習・人工知能等）を活用した、主にホワイトカラー業務の効率化・自動化の取組みである。人間の補完として業務を遂行できることから、仮想知的労働者[1]とも言われている[2]。また、デスクトップ作業のみに絞ったものをロボティック・デスクトップ・オートメーションと呼び、RPAと区別することもある[3]。
+    ロボティック・プロセス・オートメーション
+    （英: robotic process automation、RPA）とは、
+    認知技術（ルールエンジン・機械学習・人工知能等）を活用した、
+    主にホワイトカラー業務の効率化・自動化の取組みである。
+    人間の補完として業務を遂行できることから、仮想知的労働者[1]とも言われている[2]。
+    また、デスクトップ作業のみに絞ったものをロボティック・デスクトップ・オートメーションと呼び、
+    RPAと区別することもある[3]。
 
 by wikipedia
 
