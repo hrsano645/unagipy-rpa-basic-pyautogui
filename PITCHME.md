@@ -48,7 +48,7 @@ WEB scrapingだとそこまでカバーできない
 
 ## そこでRPAという救世主が！！
 
-<いらすとやさんで救世主的な画像を>
+![救世主 by いらすとや](https://3.bp.blogspot.com/-AqxFLFqfBBc/XAY53gAwSKI/AAAAAAABQfs/3NHgSP5h4bImIvMO15rqeVWFLCGhfJ61gCLcBGAs/s800/god_bible_kyuuseisyu.png)
 
 ---
 
@@ -65,11 +65,7 @@ by wikipedia
 ### RPA期待高い話多い
 
 - [なんと平均約85%の効率化？！自治体のRPA実証実験で驚愕の結果が【iNTERNET magazine Reboot】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/imreboot/news/1177196.html)
-
-
 - [ Apple、イタリアのRPA企業Stamplayを買収 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1903/22/news075.html)
-
-
 - [‪Google トレンドで「ロボティック・プロセス・オートメーション, RPA - すべての国、過去 5 年間」の 人気度の動向 を見る](https://trends.google.co.jp/trends/explore/TIMESERIES/1554083400?hl=ja&tz=-540&date=today+5-y&q=%2Fg%2F11c3p_5fs0,RPA&sni=3‬)
 
 
@@ -83,6 +79,10 @@ by wikipedia
 - 作業=コードやフローにできて明文化できる
 - 人が関与しなくて良いので品質、信頼性につながる
 
+---
+
+### RPAのいいところ悪いところ
+
 悪いところ
 
 - 複雑なものを単純にするのは難しい
@@ -92,7 +92,9 @@ by wikipedia
 
 ### pyautogui使ってみた
 
-こちらです -> [Welcome to PyAutoGUI’s documentation! &mdash; PyAutoGUI 1.0.0 documentation](https://pyautogui.readthedocs.io/en/latest/)
+こちらです 
+
+-> [PyAutoGUI · PyPI](https://pypi.org/project/PyAutoGUI/)
 
 簡単に言うと GUIでの操作をオートメーションするためのライブラリ
 
@@ -118,6 +120,8 @@ pipenv install pyautogui
 
 ### マウスとキーボードの操作
 
+
+
 ---
 
 ### クリーンショット
@@ -133,7 +137,7 @@ pipenv install pyautogui
 - ディスプレイの座標が非常に重要
 - ウィンドウがかぶるとクリックできないなどがある
     - win32gui(pywin32)でウィンドウの情報取得と座標の計算が必須
-    - 被らないような工夫（バックグラウンドとフォアグラウンドを正しく見る）
+    - 被らないような工夫（バックグラウンドとフォアグラウンドを正しく把握する手段）
     - ショートカットキーが使えると正確性高くなる
     - 画像識別での座標検出は精度良くない（使いこなせてないからかも）
 
@@ -162,6 +166,7 @@ pipenv install pyautogui
 
 色々あるからググってくださいw
 
+- 
 - UIPath
 - [GitHub - OakwoodAI/Automagica: 🤖 Open Source (Smart) Robotic Process Automation](https://github.com/OakwoodAI/Automagica) 
 - **
