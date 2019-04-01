@@ -54,23 +54,23 @@ WEB scrapingだとそこまでカバーできない
 
 #### RPA(Robotics Process Automation）とは
 
-```
-ロボティック・プロセス・オートメーション（英: robotic process automation、RPA）とは、認知技術（ルールエンジン・機械学習・人工知能等）を活用した、主にホワイトカラー業務の効率化・自動化の取組みである。人間の補完として業務を遂行できることから、仮想知的労働者[1]とも言われている[2]。また、デスクトップ作業のみに絞ったものをロボティック・デスクトップ・オートメーションと呼び、RPAと区別することもある[3]。
+
+    ロボティック・プロセス・オートメーション（英: robotic process automation、RPA）とは、認知技術（ルールエンジン・機械学習・人工知能等）を活用した、主にホワイトカラー業務の効率化・自動化の取組みである。人間の補完として業務を遂行できることから、仮想知的労働者[1]とも言われている[2]。また、デスクトップ作業のみに絞ったものをロボティック・デスクトップ・オートメーションと呼び、RPAと区別することもある[3]。
 
 by wikipedia
-```
+
 
 ---
 
 ### RPA期待高い話多い
 
-[なんと平均約85%の効率化？！自治体のRPA実証実験で驚愕の結果が【iNTERNET magazine Reboot】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/imreboot/news/1177196.html)
+- [なんと平均約85%の効率化？！自治体のRPA実証実験で驚愕の結果が【iNTERNET magazine Reboot】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/imreboot/news/1177196.html)
 
 
-[ Apple、イタリアのRPA企業Stamplayを買収 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1903/22/news075.html)
+- [ Apple、イタリアのRPA企業Stamplayを買収 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1903/22/news075.html)
 
 
-[‪Google トレンドで「ロボティック・プロセス・オートメーション, RPA - すべての国、過去 5 年間」の 人気度の動向 を見る](https://trends.google.co.jp/trends/explore/TIMESERIES/1554083400?hl=ja&tz=-540&date=today+5-y&q=%2Fg%2F11c3p_5fs0,RPA&sni=3‬)
+- [‪Google トレンドで「ロボティック・プロセス・オートメーション, RPA - すべての国、過去 5 年間」の 人気度の動向 を見る](https://trends.google.co.jp/trends/explore/TIMESERIES/1554083400?hl=ja&tz=-540&date=today+5-y&q=%2Fg%2F11c3p_5fs0,RPA&sni=3‬)
 
 
 ---
