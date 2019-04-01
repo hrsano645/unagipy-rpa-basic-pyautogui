@@ -89,13 +89,19 @@ WEB scrapingだとそこまでカバーできない
 ---
 
 # pyautoguiの使い方:インストール
-`pip install pyautogui`
-`pipenv install pyautogui`
+```bash
+pip install pyautogui
+
+#pipenvなら
+pipenv install pyautogui
+```
 
 ```python
 >>> import pyautogui
->>> pyautogui.position() # マウスの座標が出せる
->>> pyautogui.resolution() # ディスプレイの
+# ディスプレイの解像度
+>>> screenWidth, screenHeight = pyautogui.size()
+# 実行したタイミングでのマウスの位置座標
+>>> currentMouseX, currentMouseY = pyautogui.position()
 ```
 
 ---
