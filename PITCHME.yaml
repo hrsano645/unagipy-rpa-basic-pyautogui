@@ -1,0 +1,12 @@
+#テーマの設定
+theme : moon
+
+#フットノートの設定
+footnote : "Unagi.py #16 LT"
+
+#スライドのページ数表示の設定
+slide-number: true
+
+#コードのシンタックスハイライトの設定
+highlight : monokai
+
