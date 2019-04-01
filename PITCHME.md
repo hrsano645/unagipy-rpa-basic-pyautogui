@@ -17,7 +17,7 @@ Hiroshi Sano
 
 ---
 
-# 本業でよくやること
+### 本業でよくやること
 
 - 機械の設計 -> いろんな部品を扱う
 - 3D CADでモデリングする -> 3Dで扱う部品のデータをよく取ってくる
@@ -26,7 +26,7 @@ Hiroshi Sano
 
 ---
 
-# WEB スクレイピングでよくない？
+### WEB スクレイピングでよくない？
 
 - 大抵はそれでおk
     - 簡易なWEBサイトが結構多いので...
@@ -37,7 +37,7 @@ Hiroshi Sano
     
 ---
 
-# こういうの面倒
+### こういうの面倒
 
 (画像入れる
 
@@ -46,15 +46,23 @@ WEB scrapingだとそこまでカバーできない
 
 ---
 
-# そこでRPAという救世主が！！
+## そこでRPAという救世主が！！
+
+<いらすとやさんで救世主的な画像を>
 
 ---
 
-# RPA(とは
+#### RPA(Robotics Process Automation）とは
+
+```
+ロボティック・プロセス・オートメーション（英: robotic process automation、RPA）とは、認知技術（ルールエンジン・機械学習・人工知能等）を活用した、主にホワイトカラー業務の効率化・自動化の取組みである。人間の補完として業務を遂行できることから、仮想知的労働者[1]とも言われている[2]。また、デスクトップ作業のみに絞ったものをロボティック・デスクトップ・オートメーションと呼び、RPAと区別することもある[3]。
+
+by wikipedia
+```
 
 ---
 
-# RPA期待高い話多い
+### RPA期待高い話多い
 
 [なんと平均約85%の効率化？！自治体のRPA実証実験で驚愕の結果が【iNTERNET magazine Reboot】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/imreboot/news/1177196.html)
 
@@ -67,7 +75,7 @@ WEB scrapingだとそこまでカバーできない
 
 ---
 
-# RPAのいいところ悪いところ
+### RPAのいいところ悪いところ
 
 いいところ
 
@@ -82,7 +90,7 @@ WEB scrapingだとそこまでカバーできない
 
 ---
 
-# pyautogui使ってみた
+### pyautogui使ってみた
 
 こちらです -> [Welcome to PyAutoGUI’s documentation! &mdash; PyAutoGUI 1.0.0 documentation](https://pyautogui.readthedocs.io/en/latest/)
 
@@ -90,7 +98,7 @@ WEB scrapingだとそこまでカバーできない
 
 ---
 
-# pyautoguiの使い方:インストール
+### pyautoguiの使い方:インストール
 ```bash
 pip install pyautogui
 
@@ -108,19 +116,19 @@ pipenv install pyautogui
 
 ---
 
-# マウスとキーボードの操作
+### マウスとキーボードの操作
 
 ---
 
-# スクリーンショット
+### クリーンショット
 
 ---
 
-# 画像識別で位置推定
+### 画像識別で位置推定
 
 ---
 
-# 使う時の勘所
+### 使う時の勘所
 
 - ディスプレイの座標が非常に重要
 - ウィンドウがかぶるとクリックできないなどがある
@@ -131,7 +139,7 @@ pipenv install pyautogui
 
 ---
 
-# 実際の例
+### 実際の例
 
 （用意できたら
 
@@ -150,7 +158,7 @@ pipenv install pyautogui
 
 ---
 
-# そのほかのRPAツール
+### そのほかのRPAツール
 
 色々あるからググってくださいw
 
