@@ -170,10 +170,6 @@ pipenv install pyautogui
 
 ### そのほかのRPAツール
 
+たくさんありすぎて、よくわからなかった...
+
 色々あるからググってくださいw
-
-- 
-- UIPath
-- [GitHub - OakwoodAI/Automagica: 🤖 Open Source (Smart) Robotic Process Automation](https://github.com/OakwoodAI/Automagica) 
-- **
-
