@@ -30,20 +30,21 @@ twitter
 ### WEB スクレイピングでよくない？
 
 - 大抵はそれでおk
-    - 簡易なWEBサイトが結構多いので...
-    - selenium-python + webdriver（headless chromeとか）
+    - 簡易なWEBサイトが結構多い: requests+BS4とか
+    - selenium-python + webdriver（headless chrome, Firefox, Edgeとか）
 - そうもいかない場所
-    - ActiveXとかはもうさすがに..
+    - ActiveXとかはもうさすがに無いよね？
     - 特殊なプログラムを扱うようなもの(専用のダウンローダーが動くやつ）
 
 ---
 
-### こういうの面倒
+### 例えばこういうの面倒
 
 ![clickonce](assets/img/clickonce.png)
 
-Clickonceという技術で、WEBでC#のプログラムが動かせるらしいです。割とこういうの多い
-WEB scrapingだとそこまでカバーできない
+[ClickOnce](https://ja.wikipedia.org/wiki/ClickOnce) という技術で、WEBでC#のプログラムが動かせるらしいです。
+
+WEBスクレイピングだとブラウザより先はカバーできない
 
 ---
 
