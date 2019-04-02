@@ -7,11 +7,12 @@ Hiroshi Sano
 
 ### お前誰よ
 
-- twitter:hrs_sano645
+twitter  
+[![twitter:hrs_sano645](https://pbs.twimg.com/profile_images/1186772886/hrs_sano_200x200.png)](https://twitter.com/hrs_sano645)
 
 - 本業:自動車プレス金型の設計 [佐野設計事務所](https://sano-design.info)
-	- の設計以外の全て担当
-- 時々[東海大学 石井研究室](https://ishiilab.net) お手伝い
+	- 設計以外の全て担当
+- 時々[東海大学 石井研究室](https://ishiilab.net) のお手伝い
 
 - 最近は雑務を極力Python（マシン）に投げまくってる
 
@@ -22,7 +23,7 @@ Hiroshi Sano
 - 機械の設計 -> いろんな部品を扱う
 - 3D CADでモデリングする -> 3Dで扱う部品のデータをよく取ってくる
 
-面倒なので自動化したい 
+面倒なので自動化したい
 
 ---
 
@@ -32,14 +33,14 @@ Hiroshi Sano
     - 簡易なWEBサイトが結構多いので...
     - selenium-python + webdriver（headless chromeとか）
 - そうもいかない場所
-    - ActiveXとかはもうないと思います
+    - ActiveXとかはもうさすがに..
     - 特殊なプログラムを扱うようなもの(専用のダウンローダーが動くやつ）
-    
+
 ---
 
 ### こういうの面倒
 
-(画像入れる
+![clickonce](assets/img/clickonce.png)
 
 Clickonceという技術で、WEBでC#のプログラムが動かせるらしいです。割とこういうの多い
 WEB scrapingだとそこまでカバーできない
@@ -72,8 +73,7 @@ by wikipedia
 
 - [なんと平均約85%の効率化？！自治体のRPA実証実験で驚愕の結果が【iNTERNET magazine Reboot】 - INTERNET Watch](https://internet.watch.impress.co.jp/docs/imreboot/news/1177196.html)
 - [ Apple、イタリアのRPA企業Stamplayを買収 - ITmedia NEWS](https://www.itmedia.co.jp/news/articles/1903/22/news075.html)
-- [‪Google トレンドで「ロボティック・プロセス・オートメーション, RPA - すべての国、過去 5 年間」の 人気度の動向 を見る](https://trends.google.co.jp/trends/explore/TIMESERIES/1554083400?hl=ja&tz=-540&date=today+5-y&q=%2Fg%2F11c3p_5fs0,RPA&sni=3‬)
-
+- [Google トレンドで「RPA, ロボティック・プロセス・オートメーション - すべての国、2016/03/02～2019/04/02」の 人気度の動向 を見る](https://trends.google.co.jp/trends/explore/TIMESERIES/1554183000?hl=ja&tz=-540&date=2016-03-02+2019-04-02&q=RPA,%2Fg%2F11c3p_5fs0&sni=3)
 
 ---
 
@@ -98,7 +98,7 @@ by wikipedia
 
 ### pyautogui使ってみた
 
-こちらです 
+こちらです
 
 -> [PyAutoGUI · PyPI](https://pypi.org/project/PyAutoGUI/)
 
@@ -107,6 +107,7 @@ by wikipedia
 ---
 
 ### pyautoguiの使い方:インストール
+
 ```bash
 pip install pyautogui
 
@@ -127,10 +128,9 @@ pipenv install pyautogui
 ### マウスとキーボードの操作
 
 
-
 ---
 
-### クリーンショット
+### スクリーンショット
 
 ---
 
