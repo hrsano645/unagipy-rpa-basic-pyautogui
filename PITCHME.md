@@ -97,13 +97,13 @@ by wikipedia
 
 ---
 
-### pyautogui使ってみた
+### PythonでRPA -> PyAutoGUI
 
 こちらです
 
 -> [PyAutoGUI · PyPI](https://pypi.org/project/PyAutoGUI/)
 
-簡単に言うと GUIでの操作をオートメーションするためのライブラリ
+簡単に言うと、GUIでの操作をオートメーションするためのライブラリ
 
 ---
 
