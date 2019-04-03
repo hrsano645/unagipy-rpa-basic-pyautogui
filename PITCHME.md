@@ -147,7 +147,6 @@ pipenv install pyautogui
 ```python
 # 文字入力（日本語やったこと無いけど多分だめ。
 >>> pyautogui.typewrite('Hello world!')
-
 # IMEのモード入れてローマ字を入れれば一応
 >>> pyautogui.press("hanja")
 >>> pyautogui.typewrite("konnnitihasekai!")
@@ -159,7 +158,6 @@ pipenv install pyautogui
 >>> pyautogui.press('left')   # press the left arrow key
 
 # keyup, key,down, でキーを押して離す再現も可能
-
 # hotkey
 >>> pyautogui.hotkey('ctrl', 'shift', 'esc')
 ```
