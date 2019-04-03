@@ -7,13 +7,11 @@ Hiroshi Sano
 
 ### お前誰よ
 
-twitter
 [![twitter:hrs_sano645](https://pbs.twimg.com/profile_images/1186772886/hrs_sano_200x200.png)](https://twitter.com/hrs_sano645)
 
 - 本業:自動車プレス金型の設計 [佐野設計事務所](https://sano-design.info)
 	- 設計以外の全て担当
 - 時々[東海大学 石井研究室](https://ishiilab.net) のお手伝い
-
 - 最近は雑務を極力Python（マシン）に投げまくってる
 
 ---
@@ -21,7 +19,8 @@ twitter
 ### 本業でよくやること
 
 - 機械の設計 -> いろんな部品を扱う
-- 3D CADでモデリングする -> 3Dで扱う部品のデータをよく取ってくる
+- 3D CADでモデリングする -> 3Dで扱う部品のデータをメーカーのサイトでDL
+  - 共通のリポジトリとかもあります([PartCommunity](https://web2cad.partcommunity.com/3d-cad-models/)とか)
 
 面倒なので自動化したい
 
@@ -173,7 +172,7 @@ pipenv install pyautogui
 
 ### スクリーンショット
 
-自動化→自動テスト~~/エクセルエビデンス~~ の状況把握の際に
+自動化→自動テスト ~~/エクセルエビデンス~~ の状況把握の際に
 
 ```python
 >>> im1 = pyautogui.screenshot()
@@ -214,8 +213,13 @@ pipenv install pyautogui
 
 ---
 
+本当はAPI叩いてDLできればいいのに！
+
+(ヽ´ω`)
+
+---
 ### そのほかのRPAツール
 
-たくさんありすぎて、よくわからなかった...
+たくさんありすぎて、よく把握できてません...
 
 色々あるからググってくださいw
