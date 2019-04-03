@@ -145,15 +145,20 @@ pipenv install pyautogui
 ### キーボード操作
 
 ```python
-# 文字入力（日本語やったこと無いけど多分だめ。IMEのモード入れてローマ字）
+# 文字入力（日本語やったこと無いけど多分だめ。
 >>> pyautogui.typewrite('Hello world!')
+
+# IMEのモード入れてローマ字を入れれば一応
+>>> pyautogui.press("hanja")
+>>> pyautogui.typewrite("konnnitihasekai!")
+>>> pyautogui.press("enter")
 
 # 特殊キーもいけます
 >>> pyautogui.press('enter')  # press the Enter key
 >>> pyautogui.press('f1')     # press the F1 key
 >>> pyautogui.press('left')   # press the left arrow key
 
-# keyup, key,down, でキーを押して話すも再現
+# keyup, key,down, でキーを押して離す再現も可能
 
 # hotkey
 >>> pyautogui.hotkey('ctrl', 'shift', 'esc')
