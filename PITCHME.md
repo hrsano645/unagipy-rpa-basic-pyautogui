@@ -219,7 +219,7 @@ pipenv install pyautogui
 
 ---
 
-本当はAPI叩いてDLできればいいのに！
+本当はAPI叩いてDLできればいいのに
 
 (ヽ´ω`)
 
