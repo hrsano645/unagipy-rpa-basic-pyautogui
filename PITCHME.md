@@ -1,6 +1,7 @@
 ### pyautoguiでお手軽業務RPAしてみた
 
 Unagi.py 勉強会16枚目 LT
+
 Hiroshi Sano
 
 ---
@@ -41,9 +42,9 @@ Hiroshi Sano
 
 ![clickonce](assets/img/clickonce.png)
 
-[ClickOnce](https://ja.wikipedia.org/wiki/ClickOnce) という技術で、WEBでC#のプログラムが動かせるらしいです。
+[ClickOnce](https://ja.wikipedia.org/wiki/ClickOnce) という技術で、WEBから.NETプログラムが動かせるらしいです。
 
-WEBスクレイピングだとブラウザより先はカバーできない
+WEBスクレイピング系のライブラリだとブラウザより先はカバーできない
 
 ---
 
