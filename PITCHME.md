@@ -1,13 +1,13 @@
 ### pyautoguiでお手軽業務RPAしてみた
 
-Unagi.py 勉強会16枚目 LT  
+Unagi.py 勉強会16枚目 LT
 Hiroshi Sano
 
 ---
 
 ### お前誰よ
 
-twitter  
+twitter
 [![twitter:hrs_sano645](https://pbs.twimg.com/profile_images/1186772886/hrs_sano_200x200.png)](https://twitter.com/hrs_sano645)
 
 - 本業:自動車プレス金型の設計 [佐野設計事務所](https://sano-design.info)
@@ -126,16 +126,61 @@ pipenv install pyautogui
 
 ---
 
-### マウスとキーボードの操作
+### マウスの操作
 
+```python
+# 移動
+>>> pyautogui.moveTo(100, 200)   # moves mouse to X of 100, Y of 200.
+>>> pyautogui.moveTo(None, 500)  # moves mouse to X of 100, Y of 500.
+>>> pyautogui.moveTo(600, None)  # moves mouse to X of 600, Y of 500.
+# 現在の位置をクリック
+>>> pyautogui.click()  # click the mouse
+
+# 移動してクリック
+>>> pyautogui.click(x=100, y=200)
+```
+
+---
+
+### キーボード操作
+
+```python
+# 文字入力（日本語やったこと無いけど多分だめ。IMEのモード入れてローマ字）
+>>> pyautogui.typewrite('Hello world!')
+
+# 特殊キーもいけます
+>>> pyautogui.press('enter')  # press the Enter key
+>>> pyautogui.press('f1')     # press the F1 key
+>>> pyautogui.press('left')   # press the left arrow key
+
+# keyup, key,down, でキーを押して話すも再現
+
+# hotkey
+>>> pyautogui.hotkey('ctrl', 'shift', 'esc')
+```
+
+---
+
+### 画像識別で位置推定
+
+```python
+>>> pyautogui.locateOnScreen('求めたい位置の画像.png')
+(863, 417, 70, 13) # マッチした位置の 右上x,y, 幅, 高さ
+
+```
 
 ---
 
 ### スクリーンショット
 
----
+自動化→自動テスト~~/エクセルエビデンス~~ の状況把握の際に
 
-### 画像識別で位置推定
+```python
+>>> im1 = pyautogui.screenshot()
+>>> im2 = pyautogui.screenshot('my_screenshot.png')
+```
+
+~~openpyxlを使えばエビデンスのSSコピペも自動に作れそう~~
 
 ---
 
@@ -153,8 +198,7 @@ pipenv install pyautogui
 
 ### 実際の例
 
-（用意できたら
-
+（用意できたら）
 
 ---
 
